@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDB Public School, Bisauli | Premier English Medium Heritage Academy</title>
+    <meta name="description" content="SDB Public School, Bhatpura, SH-43, Chandausi-Badaun Road, Bisauli, Uttar Pradesh 243720. Elite English Medium Education, STEM Innovation & Holistic Leadership. Admissions Open 2027-28.">
+
+    <!-- Google Fonts: Cinzel, Playfair Display & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        burgundy: {
+                            950: '#1c050b',
+                            900: '#2b0912',
+                            800: '#450d1c',
+                            700: '#5e1327',
+                            600: '#7a1b34',
+                        },
+                        champagne: {
+                            100: '#fbf6e4',
+                            200: '#f3e5ab',
+                            300: '#e8cf7a',
+                            400: '#d4af37',
+                            500: '#b8860b',
+                            600: '#946a06',
+                        },
+                        obsidian: '#111115',
+                        silk: '#fbf9f5',
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                        display: ['Cinzel', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Luxury Gold Foil Gradients & Shimmer Effects */
+        .gold-foil-text {
+            background: linear-gradient(135deg, #f3e5ab 0%, #d4af37 45%, #b8860b 75%, #f3e5ab 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-foil-btn {
+            background: linear-gradient(135deg, #f3e5ab 0%, #d4af37 50%, #b8860b 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        .gold-foil-btn::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -75%;
+            width: 50%;
+            height: 200%;
+            background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.45) 50%, rgba(255,255,255,0) 100%);
+            transform: rotate(25deg);
+            transition: all 0.7s ease;
+        }
+        .gold-foil-btn:hover::after {
+            left: 130%;
+        }
+
+        /* Royal Velvet & Architectural Backdrop */
+        .royal-academy-bg {
+            background-color: #2b0912;
+            background-image:
+                radial-gradient(circle at 82% 18%, rgba(212, 175, 55, 0.16) 0%, transparent 45%),
+                radial-gradient(circle at 12% 85%, rgba(94, 19, 39, 0.55) 0%, transparent 55%),
+                linear-gradient(145deg, #1c050b 0%, #2b0912 48%, #450d1c 100%);
+        }
+        .fine-pinstripe {
+            background-image: repeating-linear-gradient(
+                90deg,
+                rgba(212, 175, 55, 0.04) 0px,
+                rgba(212, 175, 55, 0.04) 1px,
+                transparent 1px,
+                transparent 48px
+            );
+        }
+
+        /* Subtle Reveal Animation */
+        .reveal-up {
+            opacity: 0;
+            transform: translateY(22px);
+            transition: opacity 0.75s cubic-bezier(0.16, 1, 0.3, 1), transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal-up.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="font-sans text-obsidian bg-silk antialiased selection:bg-champagne-400 selection:text-burgundy-950 overflow-x-hidden">
+
+    <!-- Prestigious Top Announcement Bar -->
+    <div class="bg-burgundy-950 text-champagne-100 text-xs border-b border-champagne-400/25">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex flex-col md:flex-row justify-between items-center gap-2">
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-3 sm:gap-5">
+                <span class="inline-flex items-center gap-1.5 text-champagne-300 font-semibold tracking-wider uppercase text-[11px]">
+                    <span class="w-1.5 h-1.5 rounded-full bg-champagne-400 animate-pulse"></span>
+                    Admissions Open 2027–28
+                </span>
+                <span class="hidden sm:inline text-champagne-400/30">|</span>
+                <span class="flex items-center gap-1.5 text-slate-300">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-champagne-400 shrink-0"></i>
+                    <span>Bhatpura, SH-43, Chandausi–Badaun Road, Bisauli, U.P. 243720</span>
+                </span>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="tel:+919690351150" class="flex items-center gap-1.5 text-champagne-200 hover:text-champagne-400 transition font-semibold tracking-wide">
+                    <i data-lucide="phone-call" class="w-3.5 h-3.5 text-champagne-400"></i>
+                    <span>+91 96903 51150</span>
+                </a>
+                <span class="text-champagne-400/30">|</span>
+                <button onclick="openTourModal('Prospectus Request')" class="text-champagne-300 hover:text-white underline underline-offset-4 font-medium transition">
+                    Digital Prospectus
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Glassmorphic Sticky Heritage Header -->
+    <header class="sticky top-0 z-40 bg-silk/92 backdrop-blur-xl border-b border-champagne-500/20 shadow-[0_4px_30px_rgba(43,9,18,0.06)]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20 sm:h-24">
+
+                <!-- Bespoke Museum-Grade Royal Crest SVG + Brand Title -->
+                <a href="#" class="flex items-center gap-3.5 group">
+                    <div class="w-13 h-13 sm:w-16 sm:h-16 shrink-0 transition-transform duration-500 group-hover:scale-105">
+                        <svg viewBox="0 0 140 140" class="w-full h-full drop-shadow-md" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="crestGold" x1="0" y1="0" x2="1" y2="1">
+                                    <stop offset="0%" stop-color="#f3e5ab"/>
+                                    <stop offset="50%" stop-color="#d4af37"/>
+                                    <stop offset="100%" stop-color="#946a06"/>
+                                </linearGradient>
+                                <linearGradient id="crestVelvet" x1="0" y1="0" x2="0" y2="1">
+                                    <stop offset="0%" stop-color="#450d1c"/>
+                                    <stop offset="100%" stop-color="#1c050b"/>
+                                </linearGradient>
+                            </defs>
+                            <!-- Outer Medallion Ring -->
+                            <circle cx="70" cy="68" r="62" fill="url(#crestVelvet)" stroke="url(#crestGold)" stroke-width="3.5"/>
+                            <circle cx="70" cy="68" r="55" fill="none" stroke="#f3e5ab" stroke-width="0.9" stroke-dasharray="2.5 2"/>
+
+                            <!-- Golden Laurel Wreath Branches -->
+                            <path d="M32 95 C20 78 21 50 38 32" fill="none" stroke="url(#crestGold)" stroke-width="2.5" stroke-linecap="round"/>
+                            <path d="M108 95 C120 78 119 50 102 32" fill="none" stroke="url(#crestGold)" stroke-width="2.5" stroke-linecap="round"/>
+                            <!-- Laurel Leaves Left -->
+                            <g fill="#f3e5ab">
+                                <ellipse cx="26" cy="76" rx="4.5" ry="2" transform="rotate(-35 26 76)"/>
+                                <ellipse cx="24" cy="63" rx="4.5" ry="2" transform="rotate(-20 24 63)"/>
+                                <ellipse cx="27" cy="50" rx="4.5" ry="2" transform="rotate(10 27 50)"/>
+                                <ellipse cx="33" cy="39" rx="4.5" ry="2" transform="rotate(30 33 39)"/>
+                                <!-- Laurel Leaves Right -->
+                                <ellipse cx="114" cy="76" rx="4.5" ry="2" transform="rotate(35 114 76)"/>
+                                <ellipse cx="116" cy="63" rx="4.5" ry="2" transform="rotate(20 116 63)"/>
+                                <ellipse cx="113" cy="50" rx="4.5" ry="2" transform="rotate(-10 113 50)"/>
+                                <ellipse cx="107" cy="39" rx="4.5" ry="2" transform="rotate(-30 107 39)"/>
+                            </g>
+
+                            <!-- Royal Heraldic Shield -->
+                            <path d="M70 22 L102 34 V65 C102 89 88 104 70 112 C52 104 38 89 38 65 V34 L70 22 Z" fill="#2b0912" stroke="url(#crestGold)" stroke-width="2.6"/>
+                            <!-- Shield Quarter Dividers -->
+                            <line x1="70" y1="24" x2="70" y2="110" stroke="#d4af37" stroke-width="0.9" opacity="0.55"/>
+                            <line x1="40" y1="62" x2="100" y2="62" stroke="#d4af37" stroke-width="0.9" opacity="0.55"/>
+
+                            <!-- Torch of Knowledge at Top Center -->
+                            <path d="M67 44 L73 44 L71 57 L69 57 Z" fill="url(#crestGold)"/>
+                            <path d="M70 31 C74 36 74 41 70 43 C66 41 66 36 70 31 Z" fill="#f3e5ab"/>
+
+                            <!-- Monogram SDB -->
+                            <text x="70" y="76" font-family="Cinzel, serif" font-size="13.5" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="1.8">SDB</text>
+                            <text x="70" y="88" font-family="sans-serif" font-size="5.6" font-weight="700" fill="#f3e5ab" text-anchor="middle" letter-spacing="1.2">PUBLIC SCHOOL</text>
+                            <text x="70" y="97" font-family="sans-serif" font-size="4.8" font-weight="600" fill="#d4af37" text-anchor="middle" letter-spacing="1">BISAULI</text>
+
+                            <!-- Ceremonial Motto Ribbon -->
+                            <path d="M16 114 Q70 126 124 114 L120 126 Q70 137 20 126 Z" fill="#1c050b" stroke="url(#crestGold)" stroke-width="1.5"/>
+                            <text x="70" y="123.5" font-family="Cinzel, serif" font-size="4.6" font-weight="700" fill="#f3e5ab" text-anchor="middle" letter-spacing="0.7">EXCELLENCE • INTEGRITY • LEADERSHIP</text>
+                        </svg>
+                    </div>
+                    <div>
+                        <span class="block font-display text-lg sm:text-2xl font-extrabold text-burgundy-900 tracking-wide leading-none">
+                            SDB PUBLIC SCHOOL
+                        </span>
+                        <span class="block text-[10px] sm:text-[11px] font-semibold uppercase tracking-[0.22em] text-champagne-600 mt-1.5">
+                            Bhatpura • SH-43, Bisauli
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex items-center gap-7 text-xs font-bold uppercase tracking-widest text-burgundy-900">
+                    <a href="#pillars" class="hover:text-champagne-600 transition">Distinction</a>
+                    <a href="#academics" class="hover:text-champagne-600 transition">Academics</a>
+                    <a href="#campus-facilities" class="hover:text-champagne-600 transition">Campus</a>
+                    <a href="#fee-estimator" class="hover:text-champagne-600 transition">Fee &amp; Prospectus</a>
+                    <a href="#principal" class="hover:text-champagne-600 transition">Leadership</a>
+                    <a href="#visit" class="hover:text-champagne-600 transition">Contact</a>
+                </nav>
+
+                <!-- Gold Shimmer CTA Button -->
+                <div class="hidden sm:flex items-center gap-3">
+                    <button onclick="openTourModal('Admission Application 2027-28')" class="gold-foil-btn text-burgundy-950 font-bold text-xs uppercase tracking-wider px-5 py-3.5 rounded-xl shadow-lg shadow-burgundy-900/15 transition transform hover:-translate-y-0.5 flex items-center gap-2">
+                        <span>Apply for Admission</span>
+                        <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                    </button>
+                </div>
+
+                <!-- Mobile Menu Toggle -->
+                <button id="mobile-menu-btn" aria-label="Toggle Menu" class="lg:hidden p-2.5 rounded-xl text-burgundy-900 hover:bg-burgundy-900/5 transition">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-silk border-t border-champagne-500/20 px-4 pt-3 pb-6 space-y-2 shadow-2xl">
+            <a href="#pillars" class="mobile-link block px-3.5 py-2.5 rounded-xl font-semibold text-sm text-burgundy-900 hover:bg-burgundy-900/5">Why SDB Stands Apart</a>
+            <a href="#academics" class="mobile-link block px-3.5 py-2.5 rounded-xl font-semibold text-sm text-burgundy-900 hover:bg-burgundy-900/5">Academic Wings</a>
+            <a href="#campus-facilities" class="mobile-link block px-3.5 py-2.5 rounded-xl font-semibold text-sm text-burgundy-900 hover:bg-burgundy-900/5">Campus &amp; Facilities</a>
+            <a href="#fee-estimator" class="mobile-link block px-3.5 py-2.5 rounded-xl font-semibold text-sm text-burgundy-900 hover:bg-burgundy-900/5">Fee &amp; Scholarship Estimator</a>
+            <a href="#principal" class="mobile-link block px-3.5 py-2.5 rounded-xl font-semibold text-sm text-burgundy-900 hover:bg-burgundy-900/5">Principal's Desk</a>
+            <a href="#visit" class="mobile-link block px-3.5 py-2.5 rounded-xl font-semibold text-sm text-burgundy-900 hover:bg-burgundy-900/5">Visit SH-43 Campus</a>
+            <div class="pt-3 grid grid-cols-2 gap-3">
+                <button onclick="openTourModal('Admission Application 2027-28')" class="gold-foil-btn text-burgundy-950 font-bold py-3 rounded-xl text-xs uppercase tracking-wider shadow">
+                    Apply Now
+                </button>
+                <a href="tel:+919690351150" class="bg-burgundy-900 text-champagne-200 font-bold py-3 rounded-xl text-xs uppercase tracking-wider text-center shadow flex items-center justify-center gap-1.5">
+                    <i data-lucide="phone" class="w-3.5 h-3.5 text-champagne-400"></i> Call Desk
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Grand Editorial Hero Section -->
+    <section class="relative royal-academy-bg text-white overflow-hidden">
+        <div class="absolute inset-0 fine-pinstripe pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20 lg:py-24 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 lg:gap-10 items-center">
+
+                <!-- Left Grand Editorial Column -->
+                <div class="lg:col-span-6 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-burgundy-950/90 border border-champagne-400/40 text-champagne-200 text-xs font-semibold tracking-widest uppercase">
+                        <i data-lucide="crown" class="w-3.5 h-3.5 text-champagne-400"></i>
+                        <span>Bisauli's Premier English Medium Academy</span>
+                    </div>
+
+                    <h1 class="font-serif text-4xl sm:text-5xl lg:text-[3.5rem] font-bold leading-[1.12] tracking-tight">
+                        Where Tradition Meets <span class="gold-foil-text italic font-semibold">Global Excellence</span>
+                    </h1>
+
+                    <!-- Gold Editorial Divider -->
+                    <div class="flex items-center justify-center lg:justify-start gap-3">
+                        <span class="h-[1px] w-16 bg-gradient-to-r from-champagne-400 to-transparent"></span>
+                        <span class="text-[11px] font-display uppercase tracking-[0.25em] text-champagne-300">Est. For Future Leaders</span>
+                    </div>
+
+                    <p class="text-slate-200/90 text-base sm:text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed font-light">
+                        Situated along the prime <strong class="text-white font-semibold">SH-43 Chandausi–Badaun Highway at Bhatpura, Bisauli</strong>, <strong class="text-champagne-200 font-semibold">SDB Public School</strong> cultivates articulate scholars, ethical leaders, and confident innovators in an inspiring heritage campus.
+                    </p>
+
+                    <!-- Primary Action Buttons -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                        <button onclick="openTourModal('Private Campus Tour')" class="gold-foil-btn w-full sm:w-auto px-7 py-4 rounded-xl text-burgundy-950 font-bold text-sm uppercase tracking-wider shadow-xl shadow-black/30 transition transform hover:-translate-y-0.5 flex items-center justify-center gap-2.5">
+                            <i data-lucide="calendar-check" class="w-4 h-4"></i>
+                            <span>Schedule Private Campus Tour</span>
+                        </button>
+                        <a href="#fee-estimator" class="w-full sm:w-auto px-7 py-4 rounded-xl bg-white/10 hover:bg-white/15 text-champagne-100 border border-champagne-400/40 font-semibold text-sm uppercase tracking-wider transition flex items-center justify-center gap-2">
+                            <i data-lucide="book-open" class="w-4 h-4 text-champagne-400"></i>
+                            <span>Explore Prospectus</span>
+                        </a>
+                    </div>
+
+                    <!-- Executive Stat Strip -->
+                    <div class="grid grid-cols-3 gap-4 pt-7 border-t border-champagne-400/20">
+                        <div>
+                            <p class="font-display text-2xl sm:text-3xl font-bold text-champagne-300">1 : 20</p>
+                            <p class="text-[11px] uppercase tracking-wider text-slate-300 mt-0.5">Faculty Mentorship</p>
+                        </div>
+                        <div>
+                            <p class="font-display text-2xl sm:text-3xl font-bold text-champagne-300">100%</p>
+                            <p class="text-[11px] uppercase tracking-wider text-slate-300 mt-0.5">English Immersion</p>
+                        </div>
+                        <div>
+                            <p class="font-display text-2xl sm:text-3xl font-bold text-champagne-300">SH-43</p>
+                            <p class="text-[11px] uppercase tracking-wider text-slate-300 mt-0.5">Bhatpura Campus</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Grand Architectural Heritage Campus Showcase (Bespoke SVG) -->
+                <div class="lg:col-span-6 relative">
+                    <div class="relative rounded-3xl p-3 sm:p-4 bg-gradient-to-b from-champagne-400/30 via-burgundy-950/90 to-burgundy-950 border border-champagne-400/50 shadow-[0_25px_70px_rgba(0,0,0,0.55)]">
+
+                        <!-- Intricate Architectural SVG Illustration -->
+                        <div class="rounded-2xl overflow-hidden border border-champagne-400/30 relative">
+                            <svg viewBox="0 0 620 400" class="w-full h-auto block" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="royalSky" x1="0" y1="0" x2="0" y2="1">
+                                        <stop offset="0%" stop-color="#19040a"/>
+                                        <stop offset="48%" stop-color="#450d1c"/>
+                                        <stop offset="85%" stop-color="#7a2c26"/>
+                                        <stop offset="100%" stop-color="#c9933b"/>
+                                    </linearGradient>
+                                    <radialGradient id="sunAura" cx="0.78" cy="0.22" r="0.45">
+                                        <stop offset="0%" stop-color="#f3e5ab" stop-opacity="0.55"/>
+                                        <stop offset="50%" stop-color="#d4af37" stop-opacity="0.16"/>
+                                        <stop offset="100%" stop-color="#d4af37" stop-opacity="0"/>
+                                    </radialGradient>
+                                    <linearGradient id="limestone" x1="0" y1="0" x2="0" y2="1">
+                                        <stop offset="0%" stop-color="#fbf9f5"/>
+                                        <stop offset="100%" stop-color="#e8dec8"/>
+                                    </linearGradient>
+                                    <linearGradient id="heritageBrick" x1="0" y1="0" x2="0" y2="1">
+                                        <stop offset="0%" stop-color="#6b1829"/>
+                                        <stop offset="100%" stop-color="#3c0b16"/>
+                                    </linearGradient>
+                                </defs>
+
+                                <!-- Sky & Golden Horizon Glow -->
+                                <rect width="620" height="400" fill="url(#royalSky)"/>
+                                <rect width="620" height="400" fill="url(#sunAura)"/>
+
+                                <!-- Golden Sunbeams -->
+                                <polygon points="485,82 140,260 230,260" fill="#f3e5ab" opacity="0.06"/>
+                                <polygon points="485,82 320,260 440,260" fill="#f3e5ab" opacity="0.08"/>
+                                <circle cx="485" cy="82" r="24" fill="#f3e5ab" opacity="0.88"/>
+
+                                <!-- Distant Tree Line -->
+                                <path d="M0 265 Q95 235 190 260 T390 250 T620 255 V320 H0 Z" fill="#172419"/>
+
+                                <!-- Left Colonnade Wing -->
+                                <rect x="46" y="172" width="154" height="106" fill="url(#heritageBrick)" stroke="#d4af37" stroke-width="1.4"/>
+                                <rect x="42" y="164" width="162" height="10" fill="url(#limestone)"/>
+                                <!-- Arched Colonnade Windows Left -->
+                                <g fill="#1c050b" stroke="#f3e5ab" stroke-width="1">
+                                    <path d="M64 222 V194 A11 11 0 0 1 86 194 V222 Z"/>
+                                    <path d="M102 222 V194 A11 11 0 0 1 124 194 V222 Z"/>
+                                    <path d="M140 222 V194 A11 11 0 0 1 162 194 V222 Z"/>
+                                    <path d="M64 272 V244 A11 11 0 0 1 86 244 V272 Z"/>
+                                    <path d="M102 272 V244 A11 11 0 0 1 124 244 V272 Z"/>
+                                    <path d="M140 272 V244 A11 11 0 0 1 162 244 V272 Z"/>
+                                </g>
+
+                                <!-- Right Colonnade Wing -->
+                                <rect x="420" y="172" width="154" height="106" fill="url(#heritageBrick)" stroke="#d4af37" stroke-width="1.4"/>
+                                <rect x="416" y="164" width="162" height="10" fill="url(#limestone)"/>
+                                <!-- Arched Colonnade Windows Right -->
+                                <g fill="#1c050b" stroke="#f3e5ab" stroke-width="1">
+                                    <path d="M458 222 V194 A11 11 0 0 1 480 194 V222 Z"/>
+                                    <path d="M496 222 V194 A11 11 0 0 1 518 194 V222 Z"/>
+                                    <path d="M534 222 V194 A11 11 0 0 1 556 194 V222 Z"/>
+                                    <path d="M458 272 V244 A11 11 0 0 1 480 244 V272 Z"/>
+                                    <path d="M496 272 V244 A11 11 0 0 1 518 244 V272 Z"/>
+                                    <path d="M534 272 V244 A11 11 0 0 1 556 244 V272 Z"/>
+                                </g>
+
+                                <!-- Central Heritage Clock Tower & Main Pavilion -->
+                                <rect x="196" y="136" width="228" height="142" fill="url(#limestone)" stroke="#d4af37" stroke-width="2"/>
+                                <!-- Tower Spire -->
+                                <rect x="272" y="76" width="76" height="60" fill="url(#limestone)" stroke="#d4af37" stroke-width="1.8"/>
+                                <polygon points="266,76 310,36 354,76" fill="#2b0912" stroke="#d4af37" stroke-width="2"/>
+                                <!-- Golden Finial Spire -->
+                                <line x1="310" y1="18" x2="310" y2="36" stroke="#f3e5ab" stroke-width="2.5"/>
+                                <circle cx="310" cy="18" r="3.5" fill="#f3e5ab"/>
+                                <!-- Heritage Clock Face -->
+                                <circle cx="310" cy="105" r="18" fill="#1c050b" stroke="#d4af37" stroke-width="2.5"/>
+                                <line x1="310" y1="105" x2="310" y2="93" stroke="#f3e5ab" stroke-width="1.8" stroke-linecap="round"/>
+                                <line x1="310" y1="105" x2="319" y2="108" stroke="#f3e5ab" stroke-width="1.8" stroke-linecap="round"/>
+
+                                <!-- Engraved Nameplate -->
+                                <rect x="218" y="146" width="184" height="20" rx="3" fill="#2b0912" stroke="#d4af37" stroke-width="1.2"/>
+                                <text x="310" y="159.5" font-family="Cinzel, serif" font-size="10" font-weight="700" fill="#f3e5ab" text-anchor="middle" letter-spacing="1.5">SDB PUBLIC SCHOOL</text>
+
+                                <!-- Grand Roman Pillars & Royal Archway -->
+                                <rect x="230" y="176" width="10" height="102" fill="#d4af37"/>
+                                <rect x="262" y="176" width="10" height="102" fill="#d4af37"/>
+                                <rect x="348" y="176" width="10" height="102" fill="#d4af37"/>
+                                <rect x="380" y="176" width="10" height="102" fill="#d4af37"/>
+                                <path d="M284 278 V215 A26 26 0 0 1 336 215 V278 Z" fill="#2b0912" stroke="#d4af37" stroke-width="2"/>
+
+                                <!-- Manicured Emerald Lawns & Royal Promenade -->
+                                <rect x="0" y="278" width="620" height="122" fill="#163020"/>
+                                <polygon points="274,278 346,278 415,400 205,400" fill="#e8dec8"/>
+                                <polygon points="282,278 338,278 395,400 225,400" fill="#fbf9f5"/>
+
+                                <!-- Ornamental Hedge Borders -->
+                                <rect x="36" y="286" width="170" height="10" rx="5" fill="#234d33" stroke="#d4af37" stroke-width="0.8"/>
+                                <rect x="414" y="286" width="170" height="10" rx="5" fill="#234d33" stroke="#d4af37" stroke-width="0.8"/>
+
+                                <!-- Bottom Campus Caption Plaque -->
+                                <rect x="135" y="362" width="350" height="26" rx="13" fill="#1c050b" opacity="0.94" stroke="#d4af37" stroke-width="1.2"/>
+                                <text x="310" y="378.5" font-family="Cinzel, serif" font-size="9.5" font-weight="700" fill="#f3e5ab" text-anchor="middle" letter-spacing="1.2">BHATPURA • SH-43, CHANDAUSI–BADAUN ROAD</text>
+                            </svg>
+                        </div>
+
+                        <!-- Floating Glassmorphic Executive Stat Badges -->
+                        <div class="grid grid-cols-2 gap-3 mt-3">
+                            <div class="bg-burgundy-950/90 backdrop-blur-md border border-champagne-400/35 rounded-2xl p-3.5 flex items-center gap-3">
+                                <div class="w-9 h-9 rounded-xl bg-champagne-400/15 border border-champagne-400/40 text-champagne-300 flex items-center justify-center shrink-0">
+                                    <i data-lucide="shield-check" class="w-4 h-4"></i>
+                                </div>
+                                <div>
+                                    <p class="text-xs font-bold text-white">24×7 Secure Campus</p>
+                                    <p class="text-[11px] text-champagne-200/80">CCTV &amp; GPS Bus Fleet</p>
+                                </div>
+                            </div>
+                            <div class="bg-burgundy-950/90 backdrop-blur-md border border-champagne-400/35 rounded-2xl p-3.5 flex items-center gap-3">
+                                <div class="w-9 h-9 rounded-xl bg-champagne-400/15 border border-champagne-400/40 text-champagne-300 flex items-center justify-center shrink-0">
+                                    <i data-lucide="cpu" class="w-4 h-4"></i>
+                                </div>
+                                <div>
+                                    <p class="text-xs font-bold text-white">AI &amp; STEM Labs</p>
+                                    <p class="text-[11px] text-champagne-200/80">Future-Ready Pedagogy</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Why SDB Stands Apart: Four Pillars of Distinction -->
+    <section id="pillars" class="py-16 sm:py-24 bg-silk relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-14 reveal-up">
+                <span class="text-champagne-600 font-display font-bold text-xs uppercase tracking-[0.25em]">The SDB Standard</span>
+                <h2 class="font-serif text-3xl sm:text-5xl font-bold text-burgundy-900 mt-3">
+                    Four Pillars of Academic Distinction
+                </h2>
+                <p class="text-slate-600 mt-4 text-sm sm:text-base leading-relaxed">
+                    Designed for discerning parents in Bisauli who seek world-class English fluency, personal mentorship, and disciplined character formation.
+                </p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Pillar 1 -->
+                <div class="reveal-up group bg-white rounded-3xl p-7 border border-champagne-500/25 shadow-sm hover:shadow-xl hover:border-champagne-400 transition-all duration-300">
+                    <div class="w-13 h-13 rounded-2xl bg-burgundy-900 text-champagne-300 flex items-center justify-center mb-6 group-hover:scale-105 transition">
+                        <i data-lucide="users" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-[11px] font-bold uppercase tracking-widest text-champagne-600">Pillar I</span>
+                    <h3 class="font-serif text-xl font-bold text-burgundy-900 mt-1">1:20 Personalized Mentorship</h3>
+                    <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                        Small, curated class cohorts ensure every child receives individualized faculty guidance, spoken English coaching, and academic tracking.
+                    </p>
+                </div>
+
+                <!-- Pillar 2 -->
+                <div class="reveal-up group bg-white rounded-3xl p-7 border border-champagne-500/25 shadow-sm hover:shadow-xl hover:border-champagne-400 transition-all duration-300">
+                    <div class="w-13 h-13 rounded-2xl bg-burgundy-900 text-champagne-300 flex items-center justify-center mb-6 group-hover:scale-105 transition">
+                        <i data-lucide="sparkles" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-[11px] font-bold uppercase tracking-widest text-champagne-600">Pillar II</span>
+                    <h3 class="font-serif text-xl font-bold text-burgundy-900 mt-1">AI &amp; Smart Classrooms</h3>
+                    <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                        Interactive digital boards, hands-on STEM experiments, and modern computer labs transform abstract concepts into visual mastery.
+                    </p>
+                </div>
+
+                <!-- Pillar 3 -->
+                <div class="reveal-up group bg-white rounded-3xl p-7 border border-champagne-500/25 shadow-sm hover:shadow-xl hover:border-champagne-400 transition-all duration-300">
+                    <div class="w-13 h-13 rounded-2xl bg-burgundy-900 text-champagne-300 flex items-center justify-center mb-6 group-hover:scale-105 transition">
+                        <i data-lucide="award" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-[11px] font-bold uppercase tracking-widest text-champagne-600">Pillar III</span>
+                    <h3 class="font-serif text-xl font-bold text-burgundy-900 mt-1">Holistic Character &amp; Leadership</h3>
+                    <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                        House leadership councils, public speaking assemblies, etiquette training, and sports build poise, confidence, and moral integrity.
+                    </p>
+                </div>
+
+                <!-- Pillar 4 -->
+                <div class="reveal-up group bg-white rounded-3xl p-7 border border-champagne-500/25 shadow-sm hover:shadow-xl hover:border-champagne-400 transition-all duration-300">
+                    <div class="w-13 h-13 rounded-2xl bg-burgundy-900 text-champagne-300 flex items-center justify-center mb-6 group-hover:scale-105 transition">
+                        <i data-lucide="shield" class="w-6 h-6"></i>
+                    </div>
+                    <span class="text-[11px] font-bold uppercase tracking-widest text-champagne-600">Pillar IV</span>
+                    <h3 class="font-serif text-xl font-bold text-burgundy-900 mt-1">Safe GPS Fleet &amp; Security</h3>
+                    <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                        Dedicated GPS-enabled buses covering Bhatpura, Bisauli town, and Chandausi–Badaun Highway with trained attendants and CCTV campus safety.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Academic Wings Selector -->
+    <section id="academics" class="py-16 sm:py-24 bg-white border-y border-champagne-500/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12 reveal-up">
+                <span class="text-champagne-600 font-display font-bold text-xs uppercase tracking-[0.25em]">Curated Learning Pathways</span>
+                <h2 class="font-serif text-3xl sm:text-5xl font-bold text-burgundy-900 mt-3">Academic Wings &amp; Curriculum</h2>
+                <p class="text-slate-600 mt-3 text-sm sm:text-base">
+                    Explore our structured educational stages crafted to nurture intellectual curiosity from early childhood to senior board excellence.
+                </p>
+            </div>
+
+            <!-- Wing Selector Tabs -->
+            <div class="flex flex-wrap justify-center gap-3 sm:gap-4 mb-10" id="wing-tabs">
+                <button data-wing="foundational" class="wing-tab active px-6 py-3.5 rounded-2xl font-bold text-xs sm:text-sm uppercase tracking-wider bg-burgundy-900 text-champagne-200 border border-champagne-400/50 shadow-lg transition">
+                    Foundational Years (Nursery – Class II)
+                </button>
+                <button data-wing="preparatory" class="wing-tab px-6 py-3.5 rounded-2xl font-bold text-xs sm:text-sm uppercase tracking-wider bg-silk text-burgundy-900 border border-champagne-500/30 hover:border-burgundy-900 transition">
+                    Preparatory &amp; Middle Wing (Classes III – VIII)
+                </button>
+                <button data-wing="senior" class="wing-tab px-6 py-3.5 rounded-2xl font-bold text-xs sm:text-sm uppercase tracking-wider bg-silk text-burgundy-900 border border-champagne-500/30 hover:border-burgundy-900 transition">
+                    Senior Secondary &amp; Career Prep (Classes IX – XII)
+                </button>
+            </div>
+
+            <!-- Interactive Wing Display Card -->
+            <div class="max-w-5xl mx-auto bg-silk rounded-3xl p-6 sm:p-10 border-2 border-champagne-500/30 shadow-xl transition-all duration-300" id="wing-card">
+                <div class="grid lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-7 space-y-5">
+                        <span id="wing-tag" class="inline-block px-3.5 py-1 rounded-full bg-burgundy-900 text-champagne-200 text-[11px] font-bold uppercase tracking-widest">
+                            Stage I • Joyful Discovery &amp; Phonics
+                        </span>
+                        <h3 id="wing-title" class="font-serif text-2xl sm:text-3xl font-bold text-burgundy-900">
+                            Foundational Years (Nursery, LKG, UKG &amp; Classes I–II)
+                        </h3>
+                        <p id="wing-desc" class="text-slate-600 text-sm sm:text-base leading-relaxed">
+                            Inspired by international Montessori and NEP experiential standards, our Foundational Wing builds effortless spoken English, phonics fluency, foundational numeracy, and creative confidence in a warm, child-safe environment.
+                        </p>
+
+                        <!-- Co-Curricular Modules Pills -->
+                        <div>
+                            <p class="text-[11px] font-bold uppercase tracking-widest text-champagne-600 mb-2.5">Co-Curricular Enrichment Modules</p>
+                            <div id="wing-modules" class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1.5 rounded-xl bg-white border border-champagne-500/30 text-xs font-semibold text-burgundy-900">🎭 Dramatics &amp; Storytelling</span>
+                                <span class="px-3 py-1.5 rounded-xl bg-white border border-champagne-500/30 text-xs font-semibold text-burgundy-900">🎨 Fine Arts &amp; Clay Craft</span>
+                                <span class="px-3 py-1.5 rounded-xl bg-white border border-champagne-500/30 text-xs font-semibold text-burgundy-900">🎵 Rhythm &amp; Music</span>
+                                <span class="px-3 py-1.5 rounded-xl bg-white border border-champagne-500/30 text-xs font-semibold text-burgundy-900">🧘 Kids Yoga &amp; Etiquette</span>
+                            </div>
+                        </div>
+
+                        <div class="pt-2">
+                            <button id="wing-btn" onclick="openTourModal('Foundational Years Admission')" class="gold-foil-btn text-burgundy-950 font-bold text-xs uppercase tracking-wider px-6 py-3.5 rounded-xl shadow-md inline-flex items-center gap-2">
+                                <span>Request Foundational Syllabus &amp; Seat Availability</span>
+                                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-5 bg-burgundy-950 text-white p-6 sm:p-7 rounded-2xl border border-champagne-400/40 shadow-lg">
+                        <h4 class="font-display text-xs font-bold uppercase tracking-[0.2em] text-champagne-300 mb-4 pb-3 border-b border-champagne-400/20">
+                            Core Academic Pillars
+                        </h4>
+                        <ul id="wing-points" class="space-y-3.5 text-sm text-slate-200">
+                            <li class="flex items-start gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-champagne-400 shrink-0 mt-0.5"></i><span>Daily English phonics &amp; vocabulary immersion</span></li>
+                            <li class="flex items-start gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-champagne-400 shrink-0 mt-0.5"></i><span>Tactile Montessori math &amp; logical games</span></li>
+                            <li class="flex items-start gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-champagne-400 shrink-0 mt-0.5"></i><span>Smart audio-visual interactive storytelling</span></li>
+                            <li class="flex items-start gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-champagne-400 shrink-0 mt-0.5"></i><span>Dedicated caring mentors &amp; low class strength</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bespoke Campus & Facilities Showcase (4 Custom Architectural SVG Artwork Cards) -->
+    <section id="campus-facilities" class="py-16 sm:py-24 bg-silk">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4 reveal-up">
+                <div>
+                    <span class="text-champagne-600 font-display font-bold text-xs uppercase tracking-[0.25em]">Infrastructure &amp; Campus Life</span>
+                    <h2 class="font-serif text-3xl sm:text-5xl font-bold text-burgundy-900 mt-3">World-Class Campus Facilities</h2>
+                </div>
+                <p class="text-slate-600 text-sm max-w-md">
+                    Every corner of our Bhatpura, SH-43 campus is engineered to elevate scientific inquiry, scholarly reading, athletic vigor, and student safety.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+
+                <!-- Facility 1: Smart STEM & Robotics Lab -->
+                <div class="reveal-up bg-white rounded-3xl overflow-hidden border border-champagne-500/25 shadow-md hover:shadow-xl transition group">
+                    <div class="bg-burgundy-950 p-4 border-b border-champagne-400/30">
+                        <svg viewBox="0 0 480 210" class="w-full h-auto rounded-xl" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="480" height="210" fill="#1c050b"/>
+                            <circle cx="380" cy="50" r="65" fill="#d4af37" opacity="0.1"/>
+                            <!-- Smart Interactive Board -->
+                            <rect x="45" y="28" width="210" height="115" rx="8" fill="#2b0912" stroke="#d4af37" stroke-width="2"/>
+                            <rect x="57" y="40" width="186" height="91" rx="4" fill="#111115"/>
+                            <!-- STEM Atom & Circuit Graphic on Board -->
+                            <circle cx="150" cy="85" r="8" fill="#f3e5ab"/>
+                            <ellipse cx="150" cy="85" rx="38" ry="14" fill="none" stroke="#d4af37" stroke-width="1.5" transform="rotate(25 150 85)"/>
+                            <ellipse cx="150" cy="85" rx="38" ry="14" fill="none" stroke="#d4af37" stroke-width="1.5" transform="rotate(-25 150 85)"/>
+                            <ellipse cx="150" cy="85" rx="38" ry="14" fill="none" stroke="#f3e5ab" stroke-width="1.5" transform="rotate(90 150 85)"/>
+                            <!-- Robotics & Lab Table -->
+                            <rect x="285" y="112" width="150" height="14" rx="3" fill="#d4af37"/>
+                            <rect x="300" y="126" width="10" height="58" fill="#450d1c"/>
+                            <rect x="410" y="126" width="10" height="58" fill="#450d1c"/>
+                            <!-- Robotic Arm & Flasks -->
+                            <rect x="315" y="96" width="32" height="16" rx="3" fill="#f3e5ab"/>
+                            <path d="M331 96 L348 70 L372 78" fill="none" stroke="#d4af37" stroke-width="4" stroke-linecap="round"/>
+                            <circle cx="348" cy="70" r="5" fill="#f3e5ab"/>
+                            <polygon points="392,112 402,84 410,84 420,112" fill="#7a1b34" stroke="#f3e5ab" stroke-width="1.5"/>
+                            <rect x="30" y="182" width="420" height="6" rx="3" fill="#450d1c"/>
+                        </svg>
+                    </div>
+                    <div class="p-6 sm:p-7">
+                        <div class="flex items-center justify-between">
+                            <span class="text-[11px] font-bold uppercase tracking-widest text-champagne-600">Innovation Wing</span>
+                            <span class="text-xs font-semibold text-burgundy-900 bg-champagne-100 px-3 py-1 rounded-full">AI &amp; Science</span>
+                        </div>
+                        <h3 class="font-serif text-2xl font-bold text-burgundy-900 mt-2">Smart STEM, AI &amp; Robotics Lab</h3>
+                        <p class="text-sm text-slate-600 mt-2.5 leading-relaxed">
+                            Equipped with interactive smart boards, calibrated Physics-Chemistry-Biology apparatus, and modern computing terminals to spark scientific discovery.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Facility 2: Royal Library & Digital Archive -->
+                <div class="reveal-up bg-white rounded-3xl overflow-hidden border border-champagne-500/25 shadow-md hover:shadow-xl transition group">
+                    <div class="bg-burgundy-950 p-4 border-b border-champagne-400/30">
+                        <svg viewBox="0 0 480 210" class="w-full h-auto rounded-xl" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="480" height="210" fill="#1c050b"/>
+                            <!-- Grand Library Bookshelves -->
+                            <rect x="42" y="24" width="396" height="154" rx="6" fill="#2b0912" stroke="#d4af37" stroke-width="2"/>
+                            <line x1="42" y1="75" x2="438" y2="75" stroke="#d4af37" stroke-width="2"/>
+                            <line x1="42" y1="126" x2="438" y2="126" stroke="#d4af37" stroke-width="2"/>
+                            <!-- Arched Reading Window Center -->
+                            <path d="M205 178 V62 A35 35 0 0 1 275 62 V178 Z" fill="#111115" stroke="#f3e5ab" stroke-width="2"/>
+                            <!-- Open Illuminated Tome -->
+                            <path d="M214 142 Q227 136 240 144 Q253 136 266 142 V160 Q253 154 240 162 Q227 154 214 160 Z" fill="#fbf9f5" stroke="#d4af37" stroke-width="1.4"/>
+                            <!-- Gold-Bound Book Spines Left & Right -->
+                            <g fill="#6b1829" stroke="#d4af37" stroke-width="1">
+                                <rect x="60" y="38" width="14" height="36"/><rect x="78" y="34" width="16" height="40"/><rect x="98" y="40" width="14" height="34"/><rect x="116" y="36" width="18" height="38"/>
+                                <rect x="346" y="38" width="14" height="36"/><rect x="364" y="34" width="16" height="40"/><rect x="384" y="40" width="14" height="34"/><rect x="402" y="36" width="18" height="38"/>
+                                <rect x="64" y="88" width="16" height="37"/><rect x="84" y="92" width="14" height="33"/><rect x="102" y="86" width="18" height="39"/>
+                                <rect x="350" y="88" width="16" height="37"/><rect x="370" y="92" width="14" height="33"/><rect x="388" y="86" width="18" height="39"/>
+                            </g>
+                            <rect x="30" y="182" width="420" height="6" rx="3" fill="#d4af37"/>
+                        </svg>
+                    </div>
+                    <div class="p-6 sm:p-7">
+                        <div class="flex items-center justify-between">
+                            <span class="text-[11px] font-bold uppercase tracking-widest text-champagne-600">Scholarly Sanctuary</span>
+                            <span class="text-xs font-semibold text-burgundy-900 bg-champagne-100 px-3 py-1 rounded-full">E-Library &amp; Classics</span>
+                        </div>
+                        <h3 class="font-serif text-2xl font-bold text-burgundy-900 mt-2">Royal Library &amp; Digital Archive</h3>
+                        <p class="text-sm text-slate-600 mt-2.5 leading-relaxed">
+                            A serene, wood-accented reading hall housing over 5,000 curated books, English classics, encyclopedias, competitive prep guides, and digital journals.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Facility 3: Olympic-Standard Sports Complex -->
+                <div class="reveal-up bg-white rounded-3xl overflow-hidden border border-champagne-500/25 shadow-md hover:shadow-xl transition group">
+                    <div class="bg-burgundy-950 p-4 border-b border-champagne-400/30">
+                        <svg viewBox="0 0 480 210" class="w-full h-auto rounded-xl" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="480" height="210" fill="#1c050b"/>
+                            <!-- Emerald Athletic Turf -->
+                            <rect x="30" y="92" width="420" height="94" rx="12" fill="#173824" stroke="#d4af37" stroke-width="2"/>
+                            <!-- Track Lanes & Center Pitch -->
+                            <rect x="56" y="108" width="368" height="62" rx="31" fill="none" stroke="#f3e5ab" stroke-width="1.5" stroke-dasharray="6 4"/>
+                            <line x1="240" y1="108" x2="240" y2="170" stroke="#f3e5ab" stroke-width="1.5"/>
+                            <circle cx="240" cy="139" r="16" fill="none" stroke="#f3e5ab" stroke-width="1.5"/>
+                            <!-- Golden Championship Trophy Emblem Top -->
+                            <path d="M224 28 H256 L251 54 C249 62 231 62 229 54 Z" fill="#d4af37" stroke="#f3e5ab" stroke-width="1.5"/>
+                            <rect x="236" y="60" width="8" height="12" fill="#f3e5ab"/>
+                            <rect x="226" y="72" width="28" height="6" rx="2" fill="#d4af37"/>
+                        </svg>
+                    </div>
+                    <div class="p-6 sm:p-7">
+                        <div class="flex items-center justify-between">
+                            <span class="text-[11px] font-bold uppercase tracking-widest text-champagne-600">Athletics &amp; Wellness</span>
+                            <span class="text-xs font-semibold text-burgundy-900 bg-champagne-100 px-3 py-1 rounded-full">Outdoor Arena</span>
+                        </div>
+                        <h3 class="font-serif text-2xl font-bold text-burgundy-900 mt-2">Championship Sports &amp; Athletics Complex</h3>
+                        <p class="text-sm text-slate-600 mt-2.5 leading-relaxed">
+                            Expansive manicured grounds for cricket, football, athletics, badminton, and morning yoga under certified physical education coaches.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Facility 4: GPS Luxury Transport Fleet -->
+                <div class="reveal-up bg-white rounded-3xl overflow-hidden border border-champagne-500/25 shadow-md hover:shadow-xl transition group">
+                    <div class="bg-burgundy-950 p-4 border-b border-champagne-400/30">
+                        <svg viewBox="0 0 480 210" class="w-full h-auto rounded-xl" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="480" height="210" fill="#1c050b"/>
+                            <!-- Highway SH-43 Horizon -->
+                            <rect x="25" y="156" width="430" height="24" rx="4" fill="#111115" stroke="#d4af37" stroke-width="1"/>
+                            <line x1="45" y1="168" x2="435" y2="168" stroke="#f3e5ab" stroke-width="1.5" stroke-dasharray="14 10"/>
+                            <!-- Luxury School Coach -->
+                            <rect x="95" y="66" width="290" height="80" rx="14" fill="#d4af37" stroke="#f3e5ab" stroke-width="2"/>
+                            <rect x="95" y="112" width="290" height="12" fill="#2b0912"/>
+                            <!-- Windows -->
+                            <g fill="#1c050b" stroke="#f3e5ab" stroke-width="1">
+                                <rect x="114" y="78" width="38" height="26" rx="4"/>
+                                <rect x="162" y="78" width="38" height="26" rx="4"/>
+                                <rect x="210" y="78" width="38" height="26" rx="4"/>
+                                <rect x="258" y="78" width="38" height="26" rx="4"/>
+                                <rect x="306" y="78" width="58" height="28" rx="5"/>
+                            </g>
+                            <!-- GPS Radar Signal Waves -->
+                            <path d="M225 46 A22 22 0 0 1 255 46" fill="none" stroke="#f3e5ab" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M216 36 A34 34 0 0 1 264 36" fill="none" stroke="#d4af37" stroke-width="2" stroke-linecap="round"/>
+                            <!-- Wheels -->
+                            <circle cx="155" cy="148" r="18" fill="#111115" stroke="#f3e5ab" stroke-width="2.5"/>
+                            <circle cx="155" cy="148" r="7" fill="#d4af37"/>
+                            <circle cx="325" cy="148" r="18" fill="#111115" stroke="#f3e5ab" stroke-width="2.5"/>
+                            <circle cx="325" cy="148" r="7" fill="#d4af37"/>
+                        </svg>
+                    </div>
+                    <div class="p-6 sm:p-7">
+                        <div class="flex items-center justify-between">
+                            <span class="text-[11px] font-bold uppercase tracking-widest text-champagne-600">Doorstep Connectivity</span>
+                            <span class="text-xs font-semibold text-burgundy-900 bg-champagne-100 px-3 py-1 rounded-full">SH-43 &amp; Bisauli</span>
+                        </div>
+                        <h3 class="font-serif text-2xl font-bold text-burgundy-900 mt-2">GPS-Monitored Safe Transport Fleet</h3>
+                        <p class="text-sm text-slate-600 mt-2.5 leading-relaxed">
+                            Comfortable, GPS-tracked buses covering Bhatpura, Bisauli town, and surrounding villages along SH-43 with verified drivers and attendants.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Digital Prospectus & Fee / Scholarship Estimator -->
+    <section id="fee-estimator" class="py-16 sm:py-24 royal-academy-bg text-white relative overflow-hidden">
+        <div class="absolute inset-0 fine-pinstripe pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+
+                <!-- Left Live Fee & Scholarship Preview Console -->
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="text-champagne-300 font-display font-bold text-xs uppercase tracking-[0.25em]">Digital Prospectus Console</span>
+                    <h2 class="font-serif text-3xl sm:text-5xl font-bold leading-tight">
+                        Interactive Fee &amp; <span class="gold-foil-text italic">Scholarship Estimator</span>
+                    </h2>
+                    <p class="text-slate-200/90 text-sm sm:text-base leading-relaxed font-light">
+                        Select your child's academic wing and transport route preference to preview our transparent quarterly investment breakdown and request an official scholarship assessment via WhatsApp.
+                    </p>
+
+                    <!-- Live Gold-Bordered Breakdown Card -->
+                    <div class="bg-burgundy-950/90 backdrop-blur-md border-2 border-champagne-400/50 rounded-3xl p-6 sm:p-7 shadow-2xl space-y-4">
+                        <div class="flex items-center justify-between border-b border-champagne-400/20 pb-3.5">
+                            <span class="font-display text-xs font-bold uppercase tracking-widest text-champagne-300">Estimated Investment Summary</span>
+                            <span class="px-3 py-1 rounded-full bg-champagne-400/15 text-champagne-200 text-[11px] font-bold">Session 2027–28</span>
+                        </div>
+
+                        <div class="grid sm:grid-cols-2 gap-4 text-sm">
+                            <div class="bg-burgundy-900/60 p-3.5 rounded-2xl border border-champagne-400/15">
+                                <p class="text-[11px] uppercase tracking-wider text-champagne-300/80">Selected Wing</p>
+                                <p id="est-wing-label" class="font-bold text-white mt-1">Foundational Years (Nursery – II)</p>
+                            </div>
+                            <div class="bg-burgundy-900/60 p-3.5 rounded-2xl border border-champagne-400/15">
+                                <p class="text-[11px] uppercase tracking-wider text-champagne-300/80">Transport Route</p>
+                                <p id="est-bus-label" class="font-bold text-white mt-1">GPS Bus (Bisauli / Bhatpura)</p>
+                            </div>
+                        </div>
+
+                        <div class="bg-burgundy-900/80 p-4 rounded-2xl border border-champagne-400/30 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                            <div>
+                                <p class="text-xs text-slate-300">Indicative Monthly Tuition + Labs</p>
+                                <p id="est-tuition-val" class="font-display text-2xl font-bold text-champagne-300 mt-0.5">₹1,450 / month</p>
+                            </div>
+                            <div class="sm:text-right">
+                                <p class="text-xs text-slate-300">Merit / Sibling Scholarship</p>
+                                <p class="text-xs font-bold text-emerald-300 mt-1">Up to 25% Tuition Waiver Eligible</p>
+                            </div>
+                        </div>
+
+                        <p class="text-[11px] text-slate-400">
+                            *Final fee card &amp; admission kit are issued officially at our Bhatpura, SH-43 Admission Office or via WhatsApp desk.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right Pre-Filled WhatsApp Prospectus & Enquiry Form -->
+                <div class="lg:col-span-6">
+                    <div class="bg-silk text-obsidian rounded-3xl p-6 sm:p-9 shadow-2xl border-2 border-champagne-400">
+                        <div class="flex items-center gap-3 mb-2">
+                            <span class="w-8 h-8 rounded-xl bg-burgundy-900 text-champagne-300 flex items-center justify-center">
+                                <i data-lucide="file-text" class="w-4 h-4"></i>
+                            </span>
+                            <span class="text-xs font-display font-bold uppercase tracking-widest text-champagne-600">Instant WhatsApp Desk</span>
+                        </div>
+                        <h3 class="font-serif text-2xl sm:text-3xl font-bold text-burgundy-900">Get Official Fee Card &amp; Prospectus</h3>
+                        <p class="text-xs sm:text-sm text-slate-600 mt-1">Complete this brief form to send your customized admission profile directly to <strong>+91 96903 51150</strong>.</p>
+
+                        <form id="prospectus-whatsapp-form" class="mt-6 space-y-4">
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-[11px] font-bold uppercase tracking-wider text-burgundy-900 mb-1.5">Student Name *</label>
+                                    <input type="text" id="pro-student" required placeholder="e.g. Aarav Chauhan" class="w-full px-4 py-3 rounded-xl bg-white border border-champagne-500/40 focus:border-burgundy-900 outline-none text-sm">
+                                </div>
+                                <div>
+                                    <label class="block text-[11px] font-bold uppercase tracking-wider text-burgundy-900 mb-1.5">Parent / Guardian Name *</label>
+                                    <input type="text" id="pro-parent" required placeholder="e.g. Dr. Vivek Chauhan" class="w-full px-4 py-3 rounded-xl bg-white border border-champagne-500/40 focus:border-burgundy-900 outline-none text-sm">
+                                </div>
+                            </div>
+
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-[11px] font-bold uppercase tracking-wider text-burgundy-900 mb-1.5">Select Academic Wing *</label>
+                                    <select id="pro-wing" class="w-full px-4 py-3 rounded-xl bg-white border border-champagne-500/40 focus:border-burgundy-900 outline-none text-sm">
+                                        <option value="foundational">Foundational Years (Nursery – II)</option>
+                                        <option value="preparatory">Preparatory &amp; Middle (III – VIII)</option>
+                                        <option value="senior">Senior Secondary (IX – XII)</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-[11px] font-bold uppercase tracking-wider text-burgundy-900 mb-1.5">GPS Transport Preference *</label>
+                                    <select id="pro-bus" class="w-full px-4 py-3 rounded-xl bg-white border border-champagne-500/40 focus:border-burgundy-900 outline-none text-sm">
+                                        <option value="local">GPS Bus (Bisauli / Bhatpura)</option>
+                                        <option value="highway">GPS Bus (SH-43 Chandausi–Badaun)</option>
+                                        <option value="self">Self Drop / Private Conveyance</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-[11px] font-bold uppercase tracking-wider text-burgundy-900 mb-1.5">Residential Locality &amp; Mobile Number *</label>
+                                <input type="text" id="pro-locality" required placeholder="e.g. Bhatpura / Bisauli Town, 98370 XXXXX" class="w-full px-4 py-3 rounded-xl bg-white border border-champagne-500/40 focus:border-burgundy-900 outline-none text-sm">
+                            </div>
+
+                            <button type="submit" class="gold-foil-btn w-full py-4 rounded-xl text-burgundy-950 font-bold text-xs sm:text-sm uppercase tracking-wider shadow-xl transition flex items-center justify-center gap-2.5">
+                                <i data-lucide="message-circle" class="w-5 h-5"></i>
+                                <span>Send Enquiry via WhatsApp (+91 96903 51150)</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Notice Board & Principal's Leadership Desk -->
+    <section id="principal" class="py-16 sm:py-24 bg-white border-b border-champagne-500/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-10 items-stretch">
+
+                <!-- Principal's Desk & Gold Calligraphic Signature Card -->
+                <div class="lg:col-span-6 bg-burgundy-950 text-white rounded-3xl p-8 sm:p-10 border-2 border-champagne-400/40 shadow-xl flex flex-col justify-between relative overflow-hidden">
+                    <div class="absolute -right-12 -top-12 w-48 h-48 rounded-full bg-champagne-400/10 pointer-events-none"></div>
+                    <div>
+                        <span class="text-champagne-300 font-display font-bold text-xs uppercase tracking-[0.25em]">From The Principal's Desk</span>
+                        <h3 class="font-serif text-2xl sm:text-3xl font-bold mt-3 leading-snug text-white">
+                            "True Education Awakens Curiosity, Moral Courage &amp; Global Competence."
+                        </h3>
+                        <p class="text-slate-300 text-sm sm:text-base mt-5 leading-relaxed font-light">
+                            Welcome to <strong class="text-champagne-200 font-semibold">SDB Public School, Bhatpura, Bisauli</strong>. Our vision is to offer families in our region an institution whose academic rigor, spoken English culture, and ethical discipline stand shoulder-to-shoulder with India's finest boarding and heritage schools.
+                        </p>
+                        <p class="text-slate-300 text-sm mt-3 leading-relaxed font-light">
+                            Every student at SDB is mentored to question deeply, communicate articulately, and lead with humility.
+                        </p>
+                    </div>
+
+                    <div class="mt-8 pt-6 border-t border-champagne-400/25 flex items-end justify-between gap-4">
+                        <div>
+                            <p class="font-serif text-lg font-bold text-champagne-200">Office of the Principal</p>
+                            <p class="text-xs uppercase tracking-widest text-slate-400 mt-0.5">SDB Public School • Bisauli</p>
+                        </div>
+                        <!-- Gold Calligraphic Signature SVG -->
+                        <svg viewBox="0 0 180 55" class="w-36 sm:w-44 h-auto" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 40 C26 12, 42 10, 38 34 C35 48, 55 18, 68 26 C78 32, 72 44, 86 32 C98 22, 112 16, 120 34 C128 46, 148 22, 166 28" fill="none" stroke="#f3e5ab" stroke-width="2.2" stroke-linecap="round"/>
+                            <path d="M22 47 Q90 42 158 46" fill="none" stroke="#d4af37" stroke-width="1.3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Live Interactive Notice & Circulars Board -->
+                <div class="lg:col-span-6 bg-silk rounded-3xl p-7 sm:p-9 border border-champagne-500/30 shadow-lg flex flex-col justify-between">
+                    <div>
+                        <div class="flex flex-wrap items-center justify-between gap-3 mb-6">
+                            <div>
+                                <span class="text-champagne-600 font-display font-bold text-xs uppercase tracking-[0.2em]">Official Bulletins</span>
+                                <h3 class="font-serif text-2xl sm:text-3xl font-bold text-burgundy-900 mt-1">Notices &amp; Circulars</h3>
+                            </div>
+                            <div class="flex gap-1.5" id="circular-tabs">
+                                <button data-circ="all" class="circ-btn active px-3 py-1.5 rounded-lg text-[11px] font-bold uppercase tracking-wider bg-burgundy-900 text-champagne-200">All</button>
+                                <button data-circ="admissions" class="circ-btn px-3 py-1.5 rounded-lg text-[11px] font-bold uppercase tracking-wider bg-white text-burgundy-900 border border-champagne-500/30">Admissions</button>
+                                <button data-circ="campus" class="circ-btn px-3 py-1.5 rounded-lg text-[11px] font-bold uppercase tracking-wider bg-white text-burgundy-900 border border-champagne-500/30">Campus</button>
+                            </div>
+                        </div>
+
+                        <div class="space-y-3.5" id="circular-list">
+                            <div data-type="admissions" class="circ-item bg-white p-4 rounded-2xl border border-champagne-500/25 flex items-start gap-4">
+                                <div class="w-12 h-12 rounded-xl bg-burgundy-900 text-champagne-300 flex flex-col items-center justify-center shrink-0 font-display font-bold">
+                                    <span class="text-xs">27-28</span>
+                                    <span class="text-[9px] text-white">OPEN</span>
+                                </div>
+                                <div>
+                                    <span class="text-[10px] font-bold uppercase tracking-wider text-champagne-600">Admission Circular</span>
+                                    <h4 class="font-bold text-burgundy-900 text-sm sm:text-base">Registration Open for Session 2027–28 (All Wings)</h4>
+                                    <p class="text-xs text-slate-600 mt-1">Private campus tours and merit scholarship interactions now open at Bhatpura, SH-43 Campus.</p>
+                                </div>
+                            </div>
+
+                            <div data-type="campus" class="circ-item bg-white p-4 rounded-2xl border border-champagne-500/25 flex items-start gap-4">
+                                <div class="w-12 h-12 rounded-xl bg-champagne-100 text-burgundy-900 border border-champagne-400/50 flex flex-col items-center justify-center shrink-0 font-display font-bold">
+                                    <i data-lucide="cpu" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <span class="text-[10px] font-bold uppercase tracking-wider text-champagne-600">Academic Upgrade</span>
+                                    <h4 class="font-bold text-burgundy-900 text-sm sm:text-base">New AI &amp; Interactive STEM Lab Modules Launched</h4>
+                                    <p class="text-xs text-slate-600 mt-1">Hands-on robotics, coding fundamentals, and visual science simulations integrated into weekly timetable.</p>
+                                </div>
+                            </div>
+
+                            <div data-type="admissions" class="circ-item bg-white p-4 rounded-2xl border border-champagne-500/25 flex items-start gap-4">
+                                <div class="w-12 h-12 rounded-xl bg-burgundy-900/10 text-burgundy-900 flex flex-col items-center justify-center shrink-0 font-display font-bold">
+                                    <i data-lucide="bus" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <span class="text-[10px] font-bold uppercase tracking-wider text-champagne-600">Transport Desk</span>
+                                    <h4 class="font-bold text-burgundy-900 text-sm sm:text-base">Expanded GPS Bus Stops Along SH-43 Highway</h4>
+                                    <p class="text-xs text-slate-600 mt-1">Direct doorstep pickup extended across Bhatpura, Bisauli town, and Chandausi–Badaun Road villages.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 pt-4 border-t border-champagne-500/20 flex items-center justify-between text-xs">
+                        <span class="text-slate-600 font-medium">Need direct assistance from the Admission Office?</span>
+                        <a href="tel:+919690351150" class="font-bold text-burgundy-900 hover:text-champagne-600 underline">Call +91 96903 51150 →</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Direct WhatsApp & Private Campus Visit Booking Section -->
+    <section id="visit" class="py-16 sm:py-24 bg-silk">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-10 items-stretch">
+
+                <!-- Campus Address & Highway Directions -->
+                <div class="lg:col-span-5 bg-burgundy-950 text-white rounded-3xl p-8 flex flex-col justify-between shadow-2xl border border-champagne-400/40">
+                    <div>
+                        <span class="text-champagne-300 font-display font-bold text-xs uppercase tracking-[0.25em]">Campus Concierge</span>
+                        <h2 class="font-serif text-3xl font-bold mt-2">Visit SDB Public School</h2>
+                        <p class="text-slate-300 text-sm mt-2 leading-relaxed font-light">
+                            Experience our academic blocks, STEM laboratories, and sports complex in person with a personalized guided tour.
+                        </p>
+
+                        <div class="space-y-5 mt-8">
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-burgundy-900 border border-champagne-400/35 text-champagne-300 flex items-center justify-center shrink-0">
+                                    <i data-lucide="map-pin" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-xs uppercase tracking-wider text-champagne-300">Campus Location</h4>
+                                    <p class="text-sm text-slate-200 mt-1">Bhatpura, SH-43, Chandausi–Badaun Road, Bisauli, Uttar Pradesh 243720</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-burgundy-900 border border-champagne-400/35 text-champagne-300 flex items-center justify-center shrink-0">
+                                    <i data-lucide="phone-call" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-xs uppercase tracking-wider text-champagne-300">Direct Admission Helpline</h4>
+                                    <a href="tel:+919690351150" class="text-lg font-display font-bold text-white hover:text-champagne-300 transition mt-0.5 block">+91 96903 51150</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-burgundy-900 border border-champagne-400/35 text-champagne-300 flex items-center justify-center shrink-0">
+                                    <i data-lucide="clock" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-xs uppercase tracking-wider text-champagne-300">Visiting &amp; Office Hours</h4>
+                                    <p class="text-sm text-slate-200 mt-1">Monday – Saturday: 8:00 AM – 3:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 pt-6 border-t border-champagne-400/20 grid grid-cols-2 gap-3">
+                        <a href="tel:+919690351150" class="gold-foil-btn py-3.5 px-4 rounded-xl text-burgundy-950 font-bold text-xs uppercase tracking-wider text-center flex items-center justify-center gap-2">
+                            <i data-lucide="phone" class="w-4 h-4"></i> Call Now
+                        </a>
+                        <a href="https://wa.me/919690351150?text=Hello%20SDB%20Public%20School%20Bisauli%2C%20I%20would%20like%20to%20schedule%20a%20private%20campus%20visit%20and%20enquire%20about%20admissions." target="_blank" rel="noopener" class="py-3.5 px-4 rounded-xl bg-burgundy-800 hover:bg-burgundy-700 text-champagne-200 font-bold text-xs uppercase tracking-wider text-center border border-champagne-400/35 transition flex items-center justify-center gap-2">
+                            <i data-lucide="message-circle" class="w-4 h-4 text-champagne-400"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Interactive Campus Map & Quick Visit Scheduler -->
+                <div class="lg:col-span-7 rounded-3xl overflow-hidden shadow-xl border border-champagne-500/30 bg-white flex flex-col">
+                    <iframe
+                        title="SDB Public School Bhatpura SH-43 Bisauli Location Map"
+                        src="https://www.google.com/maps?q=SDB+Public+School+Bhatpura+SH-43+Chandausi+Badaun+Rd+Bisauli+243720&output=embed"
+                        class="w-full h-full min-h-[340px] border-0 flex-1"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <div class="p-4 sm:p-5 bg-silk border-t border-champagne-500/20 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs">
+                        <span class="font-semibold text-burgundy-900">📍 Landmark: Bhatpura, directly on SH-43 (Chandausi–Badaun Road), Bisauli</span>
+                        <a href="https://maps.google.com/?q=SDB+Public+School+Bhatpura+Chandausi+Badaun+Rd+Bisauli+243720" target="_blank" rel="noopener" class="font-bold text-champagne-600 hover:text-burgundy-900 underline shrink-0">
+                            Get Highway Directions →
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Grand Heritage Footer -->
+    <footer class="bg-burgundy-950 text-slate-400 pt-16 pb-24 sm:pb-12 border-t border-champagne-400/25">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-champagne-400/15">
+                <div class="lg:col-span-2">
+                    <h3 class="font-display text-xl sm:text-2xl font-bold text-white tracking-wide">SDB PUBLIC SCHOOL</h3>
+                    <p class="text-[11px] font-display uppercase tracking-[0.25em] text-champagne-400 mt-1.5">
+                        Excellence • Integrity • Leadership
+                    </p>
+                    <p class="text-sm text-slate-400 mt-4 max-w-md leading-relaxed font-light">
+                        An elite English-medium academy dedicated to intellectual rigor, ethical leadership, and holistic student excellence at Bhatpura, SH-43, Chandausi–Badaun Road, Bisauli, Uttar Pradesh 243720.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-champagne-200 font-display font-bold text-xs uppercase tracking-widest mb-4">Academy Links</h4>
+                    <ul class="space-y-2.5 text-sm">
+                        <li><a href="#pillars" class="hover:text-champagne-300 transition">Four Pillars of Distinction</a></li>
+                        <li><a href="#academics" class="hover:text-champagne-300 transition">Academic Wings</a></li>
+                        <li><a href="#campus-facilities" class="hover:text-champagne-300 transition">Campus &amp; STEM Labs</a></li>
+                        <li><a href="#fee-estimator" class="hover:text-champagne-300 transition">Fee &amp; Scholarship Estimator</a></li>
+                        <li><a href="#principal" class="hover:text-champagne-300 transition">Principal's Desk</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-champagne-200 font-display font-bold text-xs uppercase tracking-widest mb-4">Admission Office</h4>
+                    <ul class="space-y-2.5 text-sm">
+                        <li>Bhatpura, SH-43, Chandausi–Badaun Road, Bisauli, U.P. 243720</li>
+                        <li>Phone: <a href="tel:+919690351150" class="text-champagne-300 font-semibold hover:underline">+91 96903 51150</a></li>
+                        <li>Mon – Sat: 8:00 AM – 3:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pt-7 flex flex-col sm:flex-row justify-between items-center text-xs gap-3">
+                <p>© 2026 SDB Public School, Bisauli. All Rights Reserved.</p>
+                <p class="text-slate-500">Bhatpura, SH-43, Chandausi–Badaun Road, Bisauli, Uttar Pradesh 243720</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Sticky Luxury Action Bar -->
+    <div class="fixed bottom-0 inset-x-0 z-40 sm:hidden bg-burgundy-950/95 backdrop-blur-md border-t border-champagne-400/35 px-3 py-2.5 grid grid-cols-2 gap-2.5 shadow-2xl">
+        <a href="tel:+919690351150" class="py-2.5 rounded-xl bg-burgundy-800 border border-champagne-400/40 text-champagne-200 font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-1.5">
+            <i data-lucide="phone-call" class="w-3.5 h-3.5 text-champagne-400"></i> Call Office
+        </a>
+        <button onclick="openTourModal('Admission Application 2027-28')" class="gold-foil-btn py-2.5 rounded-xl text-burgundy-950 font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-1.5">
+            <i data-lucide="message-circle" class="w-3.5 h-3.5"></i> Apply Online
+        </button>
+    </div>
+
+    <!-- Private Campus Tour & Admission Booking Modal -->
+    <div id="tour-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-burgundy-950/85 backdrop-blur-sm">
+        <div class="bg-silk rounded-3xl max-w-md w-full p-6 sm:p-8 shadow-2xl border-2 border-champagne-400 relative">
+            <button onclick="closeTourModal()" aria-label="Close Modal" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-burgundy-900/10 hover:bg-burgundy-900/20 text-burgundy-900 flex items-center justify-center transition">
+                <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-11 h-11 rounded-2xl bg-burgundy-900 text-champagne-300 flex items-center justify-center shrink-0">
+                    <i data-lucide="crown" class="w-5 h-5"></i>
+                </div>
+                <div>
+                    <span id="modal-subtitle" class="text-[11px] font-display font-bold uppercase tracking-widest text-champagne-600">Session 2027–28</span>
+                    <h3 class="font-serif text-xl sm:text-2xl font-bold text-burgundy-900">Admission &amp; Tour Desk</h3>
+                </div>
+            </div>
+
+            <form id="modal-whatsapp-form" class="space-y-4">
+                <div>
+                    <label class="block text-[11px] font-bold uppercase tracking-wider text-burgundy-900 mb-1">Student Full Name *</label>
+                    <input type="text" id="mod-student" required placeholder="Enter student's name" class="w-full px-4 py-2.5 rounded-xl bg-white border border-champagne-500/40 focus:border-burgundy-900 outline-none text-sm">
+                </div>
+
+                <div>
+                    <label class="block text-[11px] font-bold uppercase tracking-wider text-burgundy-900 mb-1">Parent / Guardian Name *</label>
+                    <input type="text" id="mod-parent" required placeholder="Enter parent's name" class="w-full px-4 py-2.5 rounded-xl bg-white border border-champagne-500/40 focus:border-burgundy-900 outline-none text-sm">
+                </div>
+
+                <div>
+                    <label class="block text-[11px] font-bold uppercase tracking-wider text-burgundy-900 mb-1">Academic Wing *</label>
+                    <select id="mod-wing" class="w-full px-4 py-2.5 rounded-xl bg-white border border-champagne-500/40 focus:border-burgundy-900 outline-none text-sm">
+                        <option value="Foundational Years (Nursery – Class II)">Foundational Years (Nursery – Class II)</option>
+                        <option value="Preparatory & Middle Wing (Classes III – VIII)">Preparatory &amp; Middle Wing (Classes III – VIII)</option>
+                        <option value="Senior Secondary & Career Prep (Classes IX – XII)">Senior Secondary &amp; Career Prep (Classes IX – XII)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-[11px] font-bold uppercase tracking-wider text-burgundy-900 mb-1">Preferred Visit Date or Locality *</label>
+                    <input type="text" id="mod-note" required placeholder="e.g. This Saturday, Bhatpura / Bisauli" class="w-full px-4 py-2.5 rounded-xl bg-white border border-champagne-500/40 focus:border-burgundy-900 outline-none text-sm">
+                </div>
+
+                <button type="submit" class="gold-foil-btn w-full py-3.5 rounded-xl text-burgundy-950 font-bold text-xs uppercase tracking-wider shadow-lg flex items-center justify-center gap-2">
+                    <i data-lucide="message-circle" class="w-4 h-4"></i>
+                    <span>Confirm via WhatsApp (+91 96903 51150)</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Interactive JavaScript -->
+    <script>
+        lucide.createIcons();
+
+        // Scroll Reveal Observer
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.12 });
+        document.querySelectorAll('.reveal-up').forEach(el => observer.observe(el));
+
+        // Mobile Menu Toggle
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+        document.querySelectorAll('.mobile-link').forEach(link => {
+            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        });
+
+        // Interactive Academic Wings Data & Tab Switcher
+        const wingsConfig = {
+            foundational: {
+                tag: "Stage I • Joyful Discovery & Phonics",
+                title: "Foundational Years (Nursery, LKG, UKG & Classes I–II)",
+                desc: "Inspired by international Montessori and NEP experiential standards, our Foundational Wing builds effortless spoken English, phonics fluency, foundational numeracy, and creative confidence in a warm, child-safe environment.",
+                btnLabel: "Request Foundational Syllabus & Seat Availability",
+                modalContext: "Foundational Years (Nursery – II)",
+                modules: [
+                    "🎭 Dramatics & Storytelling",
+                    "🎨 Fine Arts & Clay Craft",
+                    "🎵 Rhythm & Music",
+                    "🧘 Kids Yoga & Etiquette"
+                ],
+                points: [
+                    "Daily English phonics & vocabulary immersion",
+                    "Tactile Montessori math & logical games",
+                    "Smart audio-visual interactive storytelling",
+                    "Dedicated caring mentors & low class strength"
+                ]
+            },
+            preparatory: {
+                tag: "Stage II • Analytical Mastery & STEM Inquiry",
+                title: "Preparatory & Middle Wing (Classes III to VIII)",
+                desc: "Students build deep conceptual fluency across Mathematics, General Sciences, English Literature, Social Studies, and AI/Coding fundamentals—reinforced by regular laboratory practicals and inter-house debates.",
+                btnLabel: "Request Preparatory & Middle Prospectus",
+                modalContext: "Preparatory & Middle Wing (Classes III – VIII)",
+                modules: [
+                    "🤖 AI & Coding Club",
+                    "🎙️ Model UN & Public Speaking",
+                    "🔬 Hands-on Science Labs",
+                    "🏆 Inter-House Athletics"
+                ],
+                points: [
+                    "Structured English composition & oratory training",
+                    "Weekly STEM & computer lab experimentation",
+                    "National Olympiad & scholarship readiness",
+                    "Continuous faculty mentorship & parent reviews"
+                ]
+            },
+            senior: {
+                tag: "Stage III • Board Distinction & Career Leadership",
+                title: "Senior Secondary & Career Prep (Classes IX to XII)",
+                desc: "Rigorous board examination mastery paired with individualized career counseling, advanced laboratory research, and disciplined self-study coaching to prepare scholars for premier universities.",
+                btnLabel: "Book Senior Secondary Academic Counseling",
+                modalContext: "Senior Secondary & Career Prep (Classes IX – XII)",
+                modules: [
+                    "🎯 Career & University Guidance",
+                    "⚗️ Advanced Lab Practicals",
+                    "📊 Mock Board Series",
+                    "👑 Student Prefectorial Council"
+                ],
+                points: [
+                    "Intensive board curriculum & analytical test series",
+                    "One-on-one faculty doubt clearing & mentoring",
+                    "Leadership roles in Student Council & House Prefects",
+                    "Focused academic environment on SH-43 campus"
+                ]
+            }
+        };
+
+        document.querySelectorAll('.wing-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.wing-tab').forEach(t => {
+                    t.classList.remove('active', 'bg-burgundy-900', 'text-champagne-200', 'border-champagne-400/50', 'shadow-lg');
+                    t.classList.add('bg-silk', 'text-burgundy-900', 'border-champagne-500/30');
+                });
+                tab.classList.add('active', 'bg-burgundy-900', 'text-champagne-200', 'border-champagne-400/50', 'shadow-lg');
+                tab.classList.remove('bg-silk', 'text-burgundy-900', 'border-champagne-500/30');
+
+                const data = wingsConfig[tab.getAttribute('data-wing')];
+                document.getElementById('wing-tag').textContent = data.tag;
+                document.getElementById('wing-title').textContent = data.title;
+                document.getElementById('wing-desc').textContent = data.desc;
+                const btn = document.getElementById('wing-btn');
+                btn.querySelector('span').textContent = data.btnLabel;
+                btn.setAttribute('onclick', `openTourModal('${data.modalContext}')`);
+
+                document.getElementById('wing-modules').innerHTML = data.modules.map(m =>
+                    `<span class="px-3 py-1.5 rounded-xl bg-white border border-champagne-500/30 text-xs font-semibold text-burgundy-900">${m}</span>`
+                ).join('');
+
+                document.getElementById('wing-points').innerHTML = data.points.map(p =>
+                    `<li class="flex items-start gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-champagne-400 shrink-0 mt-0.5"></i><span>${p}</span></li>`
+                ).join('');
+                lucide.createIcons();
+            });
+        });
+
+        // Live Fee & Scholarship Estimator Logic
+        const wingRates = {
+            foundational: { label: "Foundational Years (Nursery – II)", base: 1450 },
+            preparatory: { label: "Preparatory & Middle (III – VIII)", base: 1850 },
+            senior: { label: "Senior Secondary (IX – XII)", base: 2350 }
+        };
+        const busRates = {
+            local: { label: "GPS Bus (Bisauli / Bhatpura)", add: 550 },
+            highway: { label: "GPS Bus (SH-43 Chandausi–Badaun)", add: 750 },
+            self: { label: "Self Drop / Private Conveyance", add: 0 }
+        };
+
+        const proWing = document.getElementById('pro-wing');
+        const proBus = document.getElementById('pro-bus');
+
+        function updateFeeEstimator() {
+            const w = wingRates[proWing.value];
+            const b = busRates[proBus.value];
+            const total = w.base + b.add;
+            document.getElementById('est-wing-label').textContent = w.label;
+            document.getElementById('est-bus-label').textContent = b.label;
+            document.getElementById('est-tuition-val').textContent = `₹${total.toLocaleString('en-IN')} / month`;
+        }
+        proWing.addEventListener('change', updateFeeEstimator);
+        proBus.addEventListener('change', updateFeeEstimator);
+
+        // Pre-Filled WhatsApp Prospectus Submission (+919690351150)
+        document.getElementById('prospectus-whatsapp-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const student = document.getElementById('pro-student').value.trim();
+            const parent = document.getElementById('pro-parent').value.trim();
+            const wingText = wingRates[proWing.value].label;
+            const busText = busRates[proBus.value].label;
+            const estText = document.getElementById('est-tuition-val').textContent;
+            const locality = document.getElementById('pro-locality').value.trim();
+
+            const msg = `*SDB Public School, Bisauli — Prospectus & Fee Enquiry (2027–28)*%0A%0A` +
+                        `*Student Name:* ${encodeURIComponent(student)}%0A` +
+                        `*Parent Name:* ${encodeURIComponent(parent)}%0A` +
+                        `*Academic Wing:* ${encodeURIComponent(wingText)}%0A` +
+                        `*Transport Option:* ${encodeURIComponent(busText)}%0A` +
+                        `*Estimated Plan:* ${encodeURIComponent(estText)}%0A` +
+                        `*Locality / Phone:* ${encodeURIComponent(locality)}%0A%0A` +
+                        `Kindly share the official digital prospectus and scholarship details.`;
+
+            window.open(`https://wa.me/919690351150?text=${msg}`, '_blank');
+        });
+
+        // Circulars Filter Tabs
+        document.querySelectorAll('.circ-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.circ-btn').forEach(b => {
+                    b.classList.remove('active', 'bg-burgundy-900', 'text-champagne-200');
+                    b.classList.add('bg-white', 'text-burgundy-900', 'border', 'border-champagne-500/30');
+                });
+                btn.classList.add('active', 'bg-burgundy-900', 'text-champagne-200');
+                btn.classList.remove('bg-white', 'text-burgundy-900', 'border', 'border-champagne-500/30');
+
+                const filter = btn.getAttribute('data-circ');
+                document.querySelectorAll('.circ-item').forEach(item => {
+                    if (filter === 'all' || item.getAttribute('data-type') === filter) {
+                        item.classList.remove('hidden');
+                    } else {
+                        item.classList.add('hidden');
+                    }
+                });
+            });
+        });
+
+        // Modal Controls & WhatsApp Submission
+        const tourModal = document.getElementById('tour-modal');
+        let currentInquiryPurpose = "Admission & Campus Tour";
+
+        function openTourModal(purpose = "Admission & Campus Tour") {
+            currentInquiryPurpose = purpose;
+            document.getElementById('modal-subtitle').textContent = purpose;
+            tourModal.classList.remove('hidden');
+            tourModal.classList.add('flex');
+        }
+        function closeTourModal() {
+            tourModal.classList.add('hidden');
+            tourModal.classList.remove('flex');
+        }
+        tourModal.addEventListener('click', (e) => {
+            if (e.target === tourModal) closeTourModal();
+        });
+
+        document.getElementById('modal-whatsapp-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const student = document.getElementById('mod-student').value.trim();
+            const parent = document.getElementById('mod-parent').value.trim();
+            const wing = document.getElementById('mod-wing').value;
+            const note = document.getElementById('mod-note').value.trim();
+
+            const msg = `*SDB Public School, Bisauli — ${encodeURIComponent(currentInquiryPurpose)}*%0A%0A` +
+                        `*Student Name:* ${encodeURIComponent(student)}%0A` +
+                        `*Parent Name:* ${encodeURIComponent(parent)}%0A` +
+                        `*Academic Wing:* ${encodeURIComponent(wing)}%0A` +
+                        `*Preferred Visit / Locality:* ${encodeURIComponent(note)}%0A%0A` +
+                        `Please confirm our appointment at the Bhatpura, SH-43 Campus.`;
+
+            window.open(`https://wa.me/919690351150?text=${msg}`, '_blank');
+            closeTourModal();
+        });
+    </script>
+</body>
+</html>
